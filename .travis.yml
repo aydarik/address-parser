@@ -10,4 +10,4 @@ after_success:
 
   - docker login -u $DOCKER_USER -p $DOCKER_PASS
   - docker build -t $APP:$TAG .
-  - docker push $app
+  - docker push $APP
