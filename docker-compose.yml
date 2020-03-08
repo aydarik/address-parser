@@ -1,0 +1,8 @@
+version: "3"
+services:
+  address-parser:
+    environment:
+      spring_profiles_active: $spring_profiles_active
+    image: aydarik/address-parser
+    ports:
+      - "8080:8080"
