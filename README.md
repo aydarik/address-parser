@@ -29,7 +29,7 @@ Generally it's build up automatically by *Travis CI* after each commit to the re
 
 ### Running
 
-The easiest way to run it, is to use Docker Compose command, because it should be already delivered to the Docker hub:
+The easiest way to run it, is to use Docker Compose command, because it should be already delivered to the [Docker hub](https://hub.docker.com/r/aydarik/address-parser):
 
 Use `docker-compose up -d` to run, and `docker-compose down` to stop.
 
